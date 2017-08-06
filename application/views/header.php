@@ -116,6 +116,9 @@
                                     <li style="font-weight: bolder">
                                         <a href="<?= base_url() ?>bizeulasin">Bize Ulaşın</a>
                                     </li>
+                                    <li style="font-weight: bolder">
+                                        <a href="<?= base_url() ?>iletisim">İletişim</a>
+                                    </li>
                                 </ul>
                             </nav>
                         </div>
