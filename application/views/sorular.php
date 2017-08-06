@@ -30,8 +30,8 @@
                 <div class="col-md-12">
                     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                         <?php
+                        $a=1;
                         foreach ($sorular as $rs) {
-                            $a=1;
                             ?>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="headingOne">
@@ -48,6 +48,7 @@
                                 </div>
                             </div>
                             <?php
+                            $a++;
                         }
                         ?>
                     </div>

@@ -65,6 +65,10 @@
                                                     <a class="green" href="<?=base_url()?>admin/sorular/edit/<?=$rs->id?>">
                                                         <i class="ace-icon fa fa-pencil bigger-130"></i>
                                                     </a>
+                                                    <a class="red"
+                                                       href="<?= base_url() ?>admin/sorular/delete/<?= $rs->id ?>">
+                                                        <i class="ace-icon fa fa-trash-o bigger-130"></i>
+                                                    </a>
                                                 </div>
                                                 <div class="hidden-md hidden-lg">
                                                     <div class="inline pos-rel">

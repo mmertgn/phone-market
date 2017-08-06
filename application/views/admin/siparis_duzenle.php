@@ -82,7 +82,7 @@ $this->load->view('admin/_sidebar');
             <div class="form-group">
                 <label class="col-sm-3 control-label no-padding-right" for="form-field-1"> Toplam Tutar (TL) </label>
                 <div class="col-sm-9">
-                    <input type="text" name="tel" value="<?=$siparis[0]->tutar?>" id="form-field-1" placeholder="Numara" class="col-xs-10 col-sm-5">
+                    <input type="text" name="tutar" value="<?=$siparis[0]->tutar?>" id="form-field-1" placeholder="Toplam Tutar" class="col-xs-10 col-sm-5">
                 </div>
             </div>
             <div class="form-group">

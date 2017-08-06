@@ -117,5 +117,18 @@ class Kategoriler extends CI_Controller{
 
     }
 
+    public function katguncelleKaydet($id)
+    {
+        $data=array(
+            'kat_adi'=>$this->input->post('kat_adi'),
+            'kat_aciklama'=>$this->input->post('kat_aciklama'),
+            'kat_keywords'=>$this->input->post('kat_keywords'),
+        ) ;
+        $this->Database_Model->update_data("kategoriler",$data,$id);
+        $this->session->set_flashdata("sonuc","Kayıt Güncelleme İşlemi Başarı ile Gerçekleştirildi");
+        redirect(base_url()."admin/kategoriler");
+
+    }
+
 
 }

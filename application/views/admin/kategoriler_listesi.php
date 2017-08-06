@@ -58,8 +58,8 @@
                                                 </label>
                                             </th>
                                             <th class="sorting" tabindex="0" aria-controls="dynamic-table" rowspan="1" colspan="1">Kategori Adı</th>
-                                            <th class="sorting" tabindex="0" aria-controls="dynamic-table" rowspan="1" colspan="1">Ust_id</th>
-                                            <th class="hidden-480 sorting" tabindex="0" aria-controls="dynamic-table" rowspan="1" colspan="1">keywords</th>
+                                            <th class="sorting" tabindex="0" aria-controls="dynamic-table" rowspan="1" colspan="1">Kategori Açıklaması</th>
+                                            <th class="hidden-480 sorting" tabindex="0" aria-controls="dynamic-table" rowspan="1" colspan="1">Keywords</th>
                                             <th></th>
                                         </tr>
                                     </thead>

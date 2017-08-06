@@ -13,7 +13,7 @@
             </div>
         </div>
         <div class="box-content">
-            <form role="form" action="<?= base_url()?>admin/kategoriler/eklekaydet" method="post">
+            <form role="form" action="<?= base_url()?>admin/kategoriler/katguncellekaydet" method="post">
                 <div class="form-group" >
                     <label class="col-sm-3 control-label no-padding-right" for="form-field-1-1"> Kategori Adı </label>
                     <div class="col-sm-9">

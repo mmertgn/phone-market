@@ -56,6 +56,20 @@
                         <input type="text" name="fax" value="<?=$veri[0]->fax?>" id="form-field-1-1" placeholder="" class="form-control">
                     </div>
                 </div>
+                <div class="space-4"></div>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1-1"> Google Map X Kordinatı</label>
+                    <div class="col-sm-9">
+                        <input type="text" name="xkordinat" value="<?=$veri[0]->xkordinat?>" id="form-field-1-1" placeholder="" class="form-control">
+                    </div>
+                </div>
+                <div class="space-4"></div>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label no-padding-right" for="form-field-1-1"> Google Map Y Kordinatı</label>
+                    <div class="col-sm-9">
+                        <input type="text" name="ykordinat" value="<?=$veri[0]->ykordinat?>" id="form-field-1-1" placeholder="" class="form-control">
+                    </div>
+                </div>
                 <div class="form-group">
                     <label class="col-sm-3 control-label no-padding-right" for="form-field-1-1"> Facebook</label>
                     <div class="col-sm-9">

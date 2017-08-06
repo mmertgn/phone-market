@@ -241,8 +241,7 @@
                     <!-- widget-search -->
                     <aside class="widget-search mb-30">
                         <form action="<?= base_url() ?>home/arama" method="post">
-                            <input type="text" name="search" placeholder="Ne aramıştınız?" required minlength="3">
-                            <button type="submit"><i class="zmdi zmdi-search"></i></button>
+                            <input type="text" name="search" placeholder="Ne aramıştınız?" required minlength="3"><button type="submit"><i class="zmdi zmdi-search"></i></button>
                         </form>
                     </aside>
                     <!-- widget-categories -->

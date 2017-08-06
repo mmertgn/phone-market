@@ -170,9 +170,6 @@ class Urunler extends CI_Controller{
         {
             $error = array('error' => $this->upload->display_errors());
             $this->session->set_flashdata("sonuc","Upload Hatası".$error);
-
-            echo "burdayız";
-            die();
             redirect(base_url()."admin/urunler/resimekle/$id");
         }
         else

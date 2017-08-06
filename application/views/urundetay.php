@@ -188,7 +188,7 @@
                                             <?php
                                             }
                                             ?>
-                                            <span class="text-black-5">Ürün Puanı : <?= $urundetay[0]->puan ?> </span>
+                                            <span class="text-black-5"> Ürün Puanı : <?= $urundetay[0]->puan ?> </span>
                                         </div>
                                     </div>
                                     <!-- hr -->

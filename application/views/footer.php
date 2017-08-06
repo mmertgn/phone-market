@@ -134,10 +134,7 @@
 <script src="<?= base_url() ?>mainsite/subas/js/plugins.js"></script>
 <!-- Main js file that contents all jQuery plugins activation. -->
 <script src="<?= base_url() ?>mainsite/subas/js/main.js"></script>
-<!-- Google Map js -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2cMfomGvht426RhhgEO9o-Jsdd8rmRts"></script>
-<script src="<?= base_url() ?>mainsite/subas/js/map.js"></script>
-<script src="<?= base_url() ?>mainsite/subas/js/ajax-mail.js"></script>
+
 </body>
 
 </html>

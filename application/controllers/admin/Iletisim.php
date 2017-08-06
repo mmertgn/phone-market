@@ -34,6 +34,8 @@ class Iletisim extends CI_Controller{
             'sehir'=>$this->input->post('sehir'),
             'tel'=>$this->input->post('tel'),
             'fax'=>$this->input->post('fax'),
+            'ykordinat'=>$this->input->post('ykordinat'),
+            'xkordinat'=>$this->input->post('xkordinat'),
             'facebook'=>$this->input->post('facebook'),
             'instagram'=>$this->input->post('instagram'),
             'twitter'=>$this->input->post('twitter')

@@ -71,4 +71,12 @@ class Sorular extends CI_Controller{
     }
 
 
+    function delete($id)
+    {
+        $this->db->query("DELETE FROM sorular WHERE id=$id");
+        $this->session->set_flashdata("sonuc","Kayıt Silme İşlemi Başarı ile Gerçekleştirildi");
+        redirect(base_url()."admin/sorular");
+    }
+
+
 }
