@@ -53,13 +53,14 @@
                                     <div class="panel-body">
                                         <form action="#">
                                             <!-- our order -->
+                                            <br>
                                             <div class="payment-details p-30">
-                                                <table>
+                                                <table style="margin-top: 20px">
                                                     <?php
                                                     foreach($gecmis_siparis_urun as $key) {
                                                         if ($rs->id == $key->siparis_id) {
                                                             ?>
-                                                            <tr>
+                                                            <tr style="margin-top: 15px">
                                                                 <td class="td-title-1"><?= $key->urunadi ?></td>
                                                                 <td class="td-title-2"><?= $key->urunfiyat ?> TL</td>
                                                             </tr>
