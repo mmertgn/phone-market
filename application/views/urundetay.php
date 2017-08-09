@@ -248,33 +248,37 @@
                                             <div class="reviews-tab-desc">
                                                 <?php
                                                 foreach ($yorum as $rs) {
-                                                    ?>
-                                                    <!-- single comments -->
-                                                    <div class="media mt-30">
-                                                        <div class="media-body">
-                                                            <div class="clearfix">
-                                                                <div class="name-commenter pull-left">
-                                                                    <h6 class="media-heading"><a href="#"><?= $rs->adsoy ?></a></h6>
-                                                                    <p class="mb-10"><?= $rs->tarih ?></p>
-                                                                </div>
-                                                                <div class="pull-right">
-                                                                    <?php
-                                                                    if ($rs->yorum_yapan_id == $this->session->kullanici_data['id'] || $this->session->kullanici_data['yetki']=="Admin" || $this->session->kullanici_data['yetki']=="admin" ) {
-                                                                        ?>
-                                                                        <ul class="reply-delate">
-                                                                            <li><a class="btn btn-default"
-                                                                                   href="<?= base_url() ?>home/yorumsil/<?= $rs->id ?>/<?= $urundetay[0]->id ?>">Sil</a></li>
-                                                                        </ul>
+                                                    if ($rs->durum=="Onaylı") {
+                                                        ?>
+                                                        <!-- single comments -->
+                                                        <div class="media mt-30">
+                                                            <div class="media-body">
+                                                                <div class="clearfix">
+                                                                    <div class="name-commenter pull-left">
+                                                                        <h6 class="media-heading"><a
+                                                                                    href="#"><?= $rs->adsoy ?></a></h6>
+                                                                        <p class="mb-10"><?= $rs->tarih ?></p>
+                                                                    </div>
+                                                                    <div class="pull-right">
                                                                         <?php
-                                                                    }
-                                                                    ?>
+                                                                        if ($rs->yorum_yapan_id == $this->session->kullanici_data['id'] || $this->session->kullanici_data['yetki'] == "Admin" || $this->session->kullanici_data['yetki'] == "admin") {
+                                                                            ?>
+                                                                            <ul class="reply-delate">
+                                                                                <li><a class="btn btn-default"
+                                                                                       href="<?= base_url() ?>home/yorumsil/<?= $rs->id ?>/<?= $urundetay[0]->id ?>">Sil</a>
+                                                                                </li>
+                                                                            </ul>
+                                                                            <?php
+                                                                        }
+                                                                        ?>
+                                                                    </div>
                                                                 </div>
+                                                                <p class="mb-0"><?= $rs->yorum_icerik ?></p>
                                                             </div>
-                                                            <p class="mb-0"><?= $rs->yorum_icerik ?></p>
                                                         </div>
-                                                    </div>
-                                                    <?php
-                                                }
+                                                        <?php
+                                                    }
+                                                    }
                                                 ?>
                                                 <?php
                                                 if($yorumsayisi<1){?>

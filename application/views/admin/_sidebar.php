@@ -37,6 +37,14 @@
         </li>
 
         <li class="">
+            <a href="<?php echo base_url(); ?>admin/yorumlar">
+                <i class="menu-icon fa fa-send-o"></i>
+                <span class="menu-text">Yorum Yönetimi</span>
+                <b class="arrow"></b>
+            </a>
+        </li>
+
+        <li class="">
             <a href="<?php echo base_url(); ?>admin/slider">
                 <i class="menu-icon fa fa-picture-o"></i>
                 <span class="menu-text">Slider Yönetimi</span>
