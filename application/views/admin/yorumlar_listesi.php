@@ -73,7 +73,7 @@
                                                 </label>
                                             </td>
                                             <td><?= $rs->adsoy ?></td>
-                                            <td><a href="<?= base_url() ?>home/urundetayi/<?= $rs->urun_id ?>"><?= $rs->adi ?></a></td>
+                                            <td><a href="<?= base_url() ?>home/urun_detayi/<?= $rs->urun_id ?>"><?= $rs->adi ?></a></td>
                                             <td><?= $rs->tarih ?></td>
                                             <td class="hidden-480">
                                                 <span class="label label-sm label-warning"><?= $rs->durum ?></span>

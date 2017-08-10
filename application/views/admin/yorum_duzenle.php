@@ -27,7 +27,7 @@ $this->load->view('admin/_sidebar');
             <div class="form-group" >
                 <label class="col-sm-3 control-label no-padding-right" for="form-field-1-1"> Yorum İçerik </label>
                 <div class="col-sm-9">
-                    <input type="text" name="adsoy" value="<?=$urun_yorumlari[0]->yorum_icerik?>" id="form-field-1-1" placeholder="Adı Soyadı" class="form-control">
+                    <input type="text" name="yorum_icerik" value="<?=$urun_yorumlari[0]->yorum_icerik?>" id="form-field-1-1" placeholder="Adı Soyadı" class="form-control">
                 </div>
             </div>
             <div class="form-group">
