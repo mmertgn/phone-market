@@ -102,7 +102,7 @@ FROM
 urunler
 INNER JOIN siparis_urunler ON siparis_urunler.urun_id = urunler.id
 WHERE
-siparis_id=1
+siparis_id=$id
 ");
         $data["sip_urunler"]=$sorgu->result();
         $this->load->view('admin/siparis_duzenle',$data);
