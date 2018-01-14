@@ -1,3 +1,3 @@
 # phone-market
-Proje Yedek
-Gerekli bu proje dosyaları burada
+E-ticaret projesi.
+Kullanılan teknolojiler : JS,Jquery,Bootstrap,Php Codeigniter FW.
